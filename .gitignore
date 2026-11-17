@@ -1,0 +1,24 @@
+# Java / Maven / Gradle
+target/
+build/
+.gradle/
+*.class
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+application-local.yml
+
+# RDF triple store runtime data
+/rdf-store/data/
+/rdf-store/run/
+
+# OS files
+.DS_Store
+Thumbs.db
